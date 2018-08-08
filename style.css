@@ -396,7 +396,7 @@ h3.oblique{
 		background-image: url("images/contacts.jpg");
 
 		/* Set a specific height */
-		min-height: 850px; 
+		min-height: 400px; 
 
 		/* Create the parallax scrolling effect */
 		background-attachment: fixed;
@@ -408,67 +408,20 @@ h3.oblique{
 	}
 	
 	
-		@media only screen and (min-width: 600px) {
-	.parallax6 {
-		/* The image used */
-		background-image: url("images/contacts.jpg");
-
-		/* Set a specific height */
-		min-height: 550px; 
-
-		/* Create the parallax scrolling effect */
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-clor:#474e5d;
-		color:white;		
-	}
-		}
-	
-	
-	.frame{		
-		margin-right:0%;
-		width:300px;
-		float:center;
 		
+	.btn {
+	  border: none;
+	  outline: 0;
+	  display: inline-block;
+	  padding: 10px 85px;
+	  color: black;
+	  background-color: BurlyWood;
+	  text-align: center;
+	  cursor: pointer;
+	  
 	}
-	
-	
-	
-	
-	.c1{
-		float:left;
-		width:300px;
-	}
-	
-	@media only screen and (min-width: 800px) {
-		.c1{
-			float:left;
-		}
-	}
-	
-	.c2{
-		float:right;
-	}
-	
-	@media only screen and (min-width: 1000px) {
-		.c2{
-			float:center;
-			margin-right:10%;
-		}
-	}
-	
-	@media only screen and (min-width: 600px) {
-		.c2{
-			float:center;
-		}
-	}
-	
-	@media only screen and (min-width: 1000px) {
-		.frame{
-			float:center;
-			margin-right:10%;
-			width:550px;
-		}
+
+	.btn:hover {
+	  background-color: DarkSalmon;
+	  color: white;
 	}
