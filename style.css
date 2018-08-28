@@ -396,7 +396,7 @@ h3.oblique{
 		background-image: url("images/contacts.jpg");
 
 		/* Set a specific height */
-		min-height: 380px; 
+		min-height: 360px; 
 
 		/* Create the parallax scrolling effect */
 		background-attachment: fixed;
